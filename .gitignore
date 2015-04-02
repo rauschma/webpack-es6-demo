@@ -1,2 +1,4 @@
 .DS_Store
 
+# Built by webpack
+bundle.js
