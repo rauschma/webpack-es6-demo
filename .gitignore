@@ -1,4 +1,6 @@
 .DS_Store
+node_modules
 
 # Built by webpack
 bundle.js
+
