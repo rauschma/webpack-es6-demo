@@ -4,14 +4,12 @@ A small demo project that shows how to use webpack for client-side development i
 
 ## Installation
 
-`npm install`
+* Install node from [https://nodejs.org/]
+* run `npm install`
 
 ## Usage
 
-`npm run dev` to start Webpack in watch mode - will recompile when you change a file.
-
-`open index.html` or simply open `index.html` in a browser. 
-
-Change or add files in `es6` folder. `main.js` is the entry point.
-
-Reload the browser when you have made a change.
+* `npm run watch` to start Webpack in watch mode - will recompile when you change a file.
+* open `index.html` in a browser. 
+* Change or add files in `es6` folder. `main.js` is the entry point.
+* Reload the browser when you have made a change.
