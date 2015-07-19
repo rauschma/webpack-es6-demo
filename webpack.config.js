@@ -13,11 +13,14 @@ module.exports = {
         ]
     },
     plugins: [
+        // Avoid publishing files when compilation failed
         new webpack.NoErrorsPlugin()
     ],
     stats: {
+        // Nice colored output
         colors: true
     },
+    // Create Sourcemaps for the bundle
     devtool: 'source-map'
 
 };
