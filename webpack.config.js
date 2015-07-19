@@ -1,4 +1,6 @@
 var path = require('path');
+var webpack = require('webpack');
+
 module.exports = {
     entry: './es6/main.js',
     output: {
@@ -7,7 +9,15 @@ module.exports = {
     },
     module: {
         loaders: [
-            { test: path.join(__dirname, 'es6'), loader: 'babel-loader' }
+            {test: path.join(__dirname, 'es6'), loader: 'babel-loader'}
         ]
-    }
+    },
+    plugins: [
+        new webpack.NoErrorsPlugin()
+    ],
+    stats: {
+        colors: true
+    },
+    devtool: 'source-map'
+
 };
