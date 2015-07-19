@@ -4,7 +4,7 @@ A small demo project that shows how to use webpack for client-side development i
 
 ## Installation
 
-* Install node from [https://nodejs.org/]
+* Install  [node](https://nodejs.org)
 * run `npm install`
 
 ## Usage
