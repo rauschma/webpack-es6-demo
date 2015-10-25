@@ -9,11 +9,14 @@ module.exports = {
     },
     module: {
         loaders: [
-            {test: path.join(__dirname, 'es6'), loader: 'babel-loader'}
+            {
+                loader: 'babel-loader',
+                test: path.join(__dirname, 'es6'),
+            }
         ]
     },
     plugins: [
-        // Avoid publishing files when compilation failed
+        // Avoid publishing files when compilation fails
         new webpack.NoErrorsPlugin()
     ],
     stats: {
@@ -21,6 +24,5 @@ module.exports = {
         colors: true
     },
     // Create Sourcemaps for the bundle
-    devtool: 'source-map'
-
+    devtool: 'source-map',
 };
