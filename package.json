@@ -8,6 +8,7 @@
   "devDependencies": {
     "babel-core": "*",
     "babel-loader": "*",
+    "babel-preset-es2015": "^6.0.15",
     "node-libs-browser": "*",
     "webpack": "*"
   }
